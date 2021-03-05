@@ -10,6 +10,7 @@ export const getStaticProps = () => {
     props: {
       static: Math.random(),
     },
+    revalidate: 5,
   };
 };
 
